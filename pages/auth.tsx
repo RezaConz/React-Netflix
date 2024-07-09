@@ -41,8 +41,8 @@ const Auth = () => {
   }, [email, name, password, login]);
 
   return (
-    <div className="relative  min-h-screen h-full w-full bg-[url('/images/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
-      <div className='bg-black w-full h-full lg:bg-opacity-50'>
+    <div className="relative  min-h-screen h-full w-full bg-[url('/images/bg.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
+      <div className='relative min-h-screen bg-black w-full h-full lg:bg-opacity-50'>
         <div className='px-12 py-5'>
           <img src='/images/logo.png' alt='Logo' className='h-12' />
         </div>
